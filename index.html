@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MILAD</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- ********HEADER******* -->
+    <header class="header">
+      <h2>milad / portfolio</h2>
+    </header>
+    <!-- *********NAV********* -->
+    <nav class="navbar">
+      <h1>feat: add Milad to your team</h1>
+      <div class="navbar-text">
+        <h4>
+          <span class="span-green">Open</span> milad wants to merge 4 commits
+          into
+          <span class="span-blue">your-team</span>
+        </h4>
+      </div>
+      <div class="btns-nav">
+        <a href="#conversation" class="btn-nav" id="conversation1"
+          >Conversation</a
+        >
+        <a href="#commits" class="btn-nav">Commits <span>4</span></a>
+        <a href="#checks" class="btn-nav">Checks <span>3</span></a>
+        <a href="#files" class="btn-nav">File changed <span>6</span></a>
+      </div>
+    </nav>
+    <!-- *******LAYOUT************* -->
+    <section class="layout">
+      <div class="stack">
+        <section id="conversation" class="box">
+          <header class="header-comment">
+            <span class="avatar" aria-hidden="true"></span
+            ><strong>milad</strong> commented
+          </header>
+          <div class="body">
+            <p>
+              Self-taught developer building toward full-stack. Mobile software
+              by day, code by night.
+            </p>
+            <p>
+              This PR adds one developer to your team. Review the changes below.
+            </p>
+          </div>
+        </section>
+        <section id="commits">
+          <h2 class="h2">Commits</h2>
+          <div class="box">
+            <ol class="commits">
+              <li class="commit">
+                <div>
+                  <div class="msg">feat: open a mobile software shop</div>
+                  <div class="sub">
+                    2022-10 · short note about what you do there
+                  </div>
+                </div>
+                <span class="sha">a1b2c3d</span>
+              </li>
+              <li class="commit">
+                <div>
+                  <div class="msg">feat: build Apple ID page clone</div>
+                  <div class="sub">2022-10 · HTML, CSS</div>
+                </div>
+                <span class="sha">e4f5a6b</span>
+              </li>
+              <li class="commit">
+                <div>
+                  <div class="msg">feat: build personal portfolio site</div>
+                  <div class="sub">2022-10 · HTML, CSS</div>
+                </div>
+                <span class="sha">c7d8e9f</span>
+              </li>
+              <li class="commit">
+                <div>
+                  <div class="msg">chore: start learning JavaScript</div>
+                  <div class="sub">2022-10 · goal: full-stack</div>
+                </div>
+                <span class="sha">0a1b2c3</span>
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section id="checks">
+          <h2 class="h2">Checks</h2>
+          <div class="box">
+            <ul class="checks">
+              <li class="check">
+                <span class="dot pass" aria-hidden="true"></span>HTML build
+                <span class="status">passed</span>
+              </li>
+              <li class="check">
+                <span class="dot pass" aria-hidden="true"></span>CSS lint
+                <span class="status">passed</span>
+              </li>
+              <li class="check">
+                <span class="dot run" aria-hidden="true"></span>JavaScript tests
+                <span class="status">running...</span>
+              </li>
+              <li class="check">
+                <span class="dot run" aria-hidden="true"></span>React
+                <span class="status">running...</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="files">
+          <h2 class="h2">Files changed</h2>
+          <div class="box">
+            <header class="header-comment"><strong>skills.md</strong></header>
+            <ul class="diff" aria-label="Skills diff">
+              <li class="ctx">@@ skills @@</li>
+              <li class="add">+ HTML</li>
+              <li class="add">+ CSS</li>
+              <li class="add">+ JavaScript (in progress)</li>
+              <li class="add">+ Mobile software, unlocking, boot repair</li>
+              <li class="del">- "I'll learn it someday"</li>
+            </ul>
+          </div>
+        </section>
+        <section id="reviews">
+          <h2 class="h2">Review comments</h2>
+          <div class="box review">
+            <header class="header-comment">
+              <span class="path">projects/apple-id-clone.html</span>
+            </header>
+            <div class="body">
+              <blockquote>
+                Replica of the Apple ID page, built with HTML and CSS.
+              </blockquote>
+              <a href="https://appleid20.ir" target="_blank">View project</a>
+            </div>
+          </div>
+          <div class="box review" style="margin-top: 12px">
+            <header class="header-comment">
+              <span class="path">projects/portfolio.html</span>
+            </header>
+            <div class="body">
+              <blockquote>My first portfolio site.</blockquote>
+              <a href="https://miladkamangar.ir" target="_blank"
+                >View project</a
+              >
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="boxx merge">
+          <div class="body">
+            <div class="row">
+              <div class="info">
+                <div class="title">
+                  This branch has no conflicts with your team
+                </div>
+                <div class="sub" style="color: var(--muted); font-size: 13px">
+                  Merge to get in touch.
+                </div>
+              </div>
+              <a class="btn" href="#">Merge</a>
+            </div>
+            <div class="contact">
+              <a href="#">miiladdev@gmail.com</a>
+              <a href="#">github.com/miiladdev</a>
+              <a href="#">t.me/miiladdev</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- ********SIDE*********** -->
+      <div class="side">
+        <aside class="side" aria-label="Pull request details">
+          <section>
+            <h3>Reviewers</h3>
+            <ul>
+              <li>You, hopefully</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Labels</h3>
+            <span class="label" style="color: var(--green)">full-stack</span>
+            <span class="label" style="color: var(--blue)">mobile</span>
+            <span class="label" style="color: var(--yellow)">learning</span>
+          </section>
+          <section>
+            <h3>Location</h3>
+            <ul>
+              <li>Marivan, Iran</li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+    </section>
+  </body>
+</html>
